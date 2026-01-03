@@ -1,7 +1,7 @@
-let hamburger = document.querySelector('.hamburger');
-let bar = document.querySelector('.bar');
-let xMark = document.querySelector('.x-mark');
-let ul = document.querySelector('header nav ul');
+const hamburger = document.querySelector('.hamburger');
+const bar = document.querySelector('.bar');
+const xMark = document.querySelector('.x-mark');
+const ul = document.querySelector('header nav ul');
 
 
 hamburger.addEventListener('click' , ()=>{
@@ -9,5 +9,6 @@ hamburger.addEventListener('click' , ()=>{
     xMark.classList.toggle('active');
     ul.classList.toggle('active');
 })
+
 
 console.log(hamburger,bar,xMark,ul)
