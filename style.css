@@ -24,6 +24,13 @@
     background: var(--light-gray);
  }
 
+.home-content .content-left .line{
+    width: 140px;
+    height: 1px;
+    background: var(--light-gray);
+    
+ }
+
  .btn-primary{
     padding: 8px 24px;
     border: 1px solid var(--light-gray);
@@ -541,3 +548,4 @@ padding: 2rem 0;
 
 
 }
+
